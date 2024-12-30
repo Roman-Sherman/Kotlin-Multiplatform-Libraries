@@ -1,6 +1,7 @@
 # Kotlin Multiplatform Libraries
 
 * [Network](#network)
+* [Repository](#repository)
 * [Serializer](#serializer)
 * [Storage](#storage)
 * [DI](#di)
@@ -43,6 +44,38 @@
 ![badge][badge-android]
 ![badge][badge-jvm]
 
+
+* [Ktorfit](https://github.com/Foso/Ktorfit) - HTTP client / Kotlin Symbol Processor for Kotlin Multiplatform (Js, Jvm, Android, Native, iOS) using KSP and Ktor clients inspired by Retrofit  
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-js]
+![badge][badge-jvm]
+![badge][badge-linux]
+![badge][badge-windows]
+![badge][badge-mac]
+
+* [fuel](https://github.com/kittinunf/fuel) - The easiest HTTP networking library for Kotlin backed by Kotlinx Coroutines.  
+![badge][badge-android]
+![badge][badge-jvm]
+
+* [rsocket-kotlin](https://github.com/rsocket/rsocket-kotlin) - [RSocket](https://rsocket.io) Kotlin multi-platform implementation based on [kotlinx.coroutines](https://github.com/Kotlin/kotlinx.coroutines) and [Ktor](https://github.com/ktorio/ktor).   
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-js]
+![badge][badge-jvm]
+![badge][badge-linux]
+![badge][badge-mac]
+![badge][badge-windows]
+![badge][badge-watchos]
+![badge][badge-tvos]
+
+* [kotliny.network](https://github.com/corbella83/kotliny.network) - Simple, powerful and lightweight Kotlin Multiplatform Network Client.  
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-js]
+![badge][badge-jvm]
+![badge][badge-linux]
+
 #### GraphQL
 
 * [apollo](https://www.apollographql.com/docs/android/essentials/get-started-multiplatform/) - Multiplatform official GraphQL client.  
@@ -62,6 +95,14 @@
 ![badge][badge-android]
 ![badge][badge-ios]
 
+#### JSON-RPC
+
+* [jsonrpc-kotlin-client](https://github.com/Reedyuk/jsonrpc-kotlin-client) -JSON-RPC Kotlin Multiplatform client.  
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-jvm]
+![badge][badge-js]
+
 #### Stomp
 
 * [krossbow](https://github.com/joffrey-bion/krossbow) - A Kotlin multiplatform coroutine-based STOMP client over websockets  
@@ -75,9 +116,27 @@
 ![badge][badge-android]
 ![badge][badge-ios]
 
+* [Highlights](https://github.com/SnipMeDev/Highlights) - Kotlin Multiplatform syntax highlighting engine.  
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-js]
+![badge][badge-jvm]
+![badge][badge-linux]
+![badge][badge-windows]
+![badge][badge-mac]
+![badge][badge-js-ir]
+
 #### Authentication
 
 * [cognito-idp](https://github.com/Liftric/cognito-idp) - Lightweight AWS Cognito Identity Provider client for Kotlin Multiplatform projects.  
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-js]
+![badge][badge-jvm]
+
+### Repository
+
+* [Store](https://github.com/MobileNativeFoundation/Store) - A Kotlin Multiplatform library for building network-resilient applications.  
 ![badge][badge-android]
 ![badge][badge-ios]
 ![badge][badge-js]
@@ -113,6 +172,71 @@
 ![badge][badge-linux]
 ![badge][badge-mac]
 
+* [Kase64](https://github.com/saschpe/Kase64) - Base64 encoder/decoder for Kotlin/Multiplatform. Supports standard and URL-safe encodings.  
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-js]
+![badge][badge-jvm]
+![badge][badge-linux]
+![badge][badge-mac]
+![badge][badge-tvos]
+![badge][badge-watchos]
+![badge][badge-windows]
+
+* [Kex](https://github.com/saschpe/Kex) - Hex string encoder/decoder for Kotlin/Multiplatform.  
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-js]
+![badge][badge-jvm]
+![badge][badge-linux]
+![badge][badge-mac]
+![badge][badge-tvos]
+![badge][badge-watchos]
+![badge][badge-windows]
+
+* [Ktoml](https://github.com/akuleshov7/ktoml) - MPP serialization library (decoder/encoder) for TOML format.  
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-js]
+![badge][badge-jvm]
+![badge][badge-linux]
+![badge][badge-mac]
+![badge][badge-tvos]
+![badge][badge-watchos]
+![badge][badge-windows]
+
+* [encoding](https://github.com/05nelsonm/component-encoding) - Rfc 4648 Section 4-8 compliant encoding (Base 16, 32 Crockford, 32 Default, 32 Hex, 64 Default, 64 Url Safe).  
+![badge][badge-android]
+![badge][badge-jvm]
+![badge][badge-js]
+![badge][badge-nodejs]
+![badge][badge-linux]
+![badge][badge-windows]
+![badge][badge-ios]
+![badge][badge-mac]
+![badge][badge-watchos]
+![badge][badge-tvos]
+![badge][badge-wasm]
+![badge][badge-android-native]
+![badge][badge-js-ir]
+![badge][badge-apple-silicon]
+
+* [parcelize](https://github.com/05nelsonm/component-parcelize) - Implement Android `Parcelable` from common code.  
+![badge][badge-android]
+![badge][badge-jvm]
+![badge][badge-js]
+![badge][badge-nodejs]
+![badge][badge-linux]
+![badge][badge-windows]
+![badge][badge-ios]
+![badge][badge-mac]
+![badge][badge-watchos]
+![badge][badge-tvos]
+![badge][badge-wasm]
+![badge][badge-android-native]
+![badge][badge-js-ir]
+![badge][badge-apple-silicon]
+
 ### Storage
 
 #### RDB
@@ -136,11 +260,29 @@
 ![badge][badge-watchos]
 ![badge][badge-windows]
 
+* [Door](https://github.com/UstadMobile/door) - Room for Kotlin Multiplatform.  
+![badge][badge-android]
+![badge][badge-js]
+![badge][badge-jvm]
+
+* [AWS - S3](https://github.com/estivensh4/aws-kmp) - AWS KMP is an extension to AWS Kotlin Multiplatform for JVM, Android and iOS.  
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-jvm]
+
 #### NoSQL
 
 * [Realm](https://github.com/realm/realm-kotlin) - Kotlin Multiplatform and Android SDK for the Realm Mobile Database: Build Better Apps Faster.  
 ![badge][badge-android]
 ![badge][badge-ios]
+
+* [Kotbase](https://github.com/jeffdgr8/kotbase) - Kotlin Multiplatform library for Couchbase Lite—a lightweight, embedded, syncable, NoSQL database  
+![badge][badge-android]
+![badge][badge-jvm]
+![badge][badge-ios]
+![badge][badge-mac]
+![badge][badge-linux]
+![badge][badge-windows]
 
 * [Kodein-DB](https://github.com/Kodein-Framework/Kodein-DB) - Embedded NoSQL database  
 ![badge][badge-android]
@@ -150,6 +292,10 @@
 ![badge][badge-mac]
 ![badge][badge-tvos]
 ![badge][badge-watchos]
+
+* [Couchbaselite](https://github.com/MyUNiDAYS/couchbaselite-kotlin-sdk) - Kotlin Multiplatform wrapper for the Couchbase Lite Mobile Database.  
+![badge][badge-android]
+![badge][badge-ios]
 
 #### KVS
 
@@ -182,9 +328,29 @@
 ![badge][badge-js]
 ![badge][badge-nodejs]
 
+* [Kottage](https://github.com/irgaly/kottage) - Kotlin Multiplatform Key-Value Store Local Cache Storage for Single Source of Truth.  
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-js]
+![badge][badge-jvm]
+![badge][badge-linux]
+![badge][badge-mac]
+![badge][badge-tvos]
+![badge][badge-watchos]
+![badge][badge-windows]
+
+* [Universal-Cache](https://github.com/andrew0000/universal-cache) - Kotlin Flow caching and request sharing. Main idea: don't request data more times than it's needed.  
+![badge][badge-android]
+![badge][badge-jvm]
+![badge][badge-ios]
+
+* [KCrypt](https://github.com/abhriyaroy/KCrypt) - Kotlin encryption key generator and encrypted key-value storage.  
+![badge][badge-android]
+![badge][badge-ios]
+
 #### FILE
 
-* [okio](https://github.com/square/okio) - A modern I/O library for Android, Kotlin, and Java.[WIP]  
+* [okio](https://github.com/square/okio) - A modern I/O library for Android, Java, and Kotlin Multiplatform.  
 ![badge][badge-android]
 ![badge][badge-ios]
 ![badge][badge-js]
@@ -197,6 +363,31 @@
 * [suparnatural-cache](https://github.com/suparngp/kotlin-multiplatform-projects/tree/master/cache) - A superfast, thread safe in-memory cache with configurable hashing schemes backed by persistent stores with blocking/non-blocking I/O.  
 ![badge][badge-android]
 ![badge][badge-ios]
+
+* [KStore](https://github.com/xxfast/KStore) - A tiny Kotlin multiplatform library that assists in saving and restoring objects to and from disk using kotlinx.coroutines, kotlinx.serialisation and okio.  
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-js]
+![badge][badge-jvm]
+![badge][badge-linux]
+![badge][badge-mac]
+![badge][badge-tvos]
+![badge][badge-wasm]
+![badge][badge-watchos]
+![badge][badge-windows]
+
+#### File System
+
+* [Kfswatch](https://github.com/irgaly/kfswatch) - Kotlin Multiplatform File System Watcher  
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-js]
+![badge][badge-jvm]
+![badge][badge-linux]
+![badge][badge-mac]
+![badge][badge-tvos]
+![badge][badge-watchos]
+![badge][badge-windows]
 
 ### DI
 
@@ -214,7 +405,14 @@
 
 * [Koin](https://github.com/InsertKoinIO/koin) -  A pragmatic lightweight dependency injection framework for Kotlin  
 ![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-js]
 ![badge][badge-jvm]
+![badge][badge-linux]
+![badge][badge-windows]
+![badge][badge-mac]
+![badge][badge-watchos]
+![badge][badge-tvos]
 
 * [PopKorn](https://github.com/corbella83/PopKorn) - Forget about modules and components. DI can be simple.  
 ![badge][badge-android]
@@ -222,11 +420,31 @@
 ![badge][badge-js]
 ![badge][badge-jvm]
 ![badge][badge-linux]
+
+* [kotlin-inject](https://github.com/evant/kotlin-inject) - Dependency injection lib for kotlin.  
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-js]
+![badge][badge-jvm]
+![badge][badge-linux]
 ![badge][badge-mac]
-  
+![badge][badge-watchos]
+![badge][badge-tvos]
+
+* [Koject](https://github.com/mori-atsushi/koject) - DI Container library for Kotlin Multiplatform.  
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-js]
+![badge][badge-jvm]
+![badge][badge-linux]
+![badge][badge-windows]
+![badge][badge-mac]
+![badge][badge-watchos]
+![badge][badge-tvos]
+
 ### Image
 
-* [korim](https://github.com/korlibs/korim) - Kotlin cORoutines IMaging, Bitmap and Vector graphics for Multiplatform Kotlin   
+* [korim](https://github.com/korlibs/korge/tree/main/korge-core#korim) - Kotlin cORoutines IMaging, Bitmap and Vector graphics for Multiplatform Kotlin   
 ![badge][badge-android]
 ![badge][badge-ios]
 ![badge][badge-js]
@@ -236,6 +454,32 @@
 ![badge][badge-tvos]
 ![badge][badge-watchos]
 ![badge][badge-windows]
+
+* [Kraphviz](https://github.com/Yeicor/kraphviz) - [Graphviz](https://graphviz.org/) for Kotlin Multiplatform.  
+![badge][badge-android]
+![badge][badge-jvm]
+![badge][badge-js]
+![badge][badge-nodejs]
+![badge][badge-linux]
+![badge][badge-windows]
+![badge][badge-ios]
+![badge][badge-mac]
+![badge][badge-watchos]
+![badge][badge-tvos]
+![badge][badge-wasm]
+![badge][badge-android-native]
+![badge][badge-js-ir]
+![badge][badge-apple-silicon]
+
+* [Kim - Kotlin Image Metadata](https://github.com/Ashampoo/kim) - Kotlin Multiplatform library for reading and writing image metadata.  
+![badge][badge-android]
+![badge][badge-jvm]
+![badge][badge-ios]
+![badge][badge-mac]
+
+* [peekaboo](https://github.com/TEAM-PREAT/peekaboo) - Single & Multiple Image Selection and Maximum Image Count Setting Library for Compose Multiplatform (Android & iOS)
+![badge][badge-android]
+![badge][badge-ios]
 
 ### Audio
 
@@ -347,17 +591,6 @@
 ![badge][badge-windows]
 ![badge][badge-watchos]
 
-* [klock](https://github.com/korlibs/klock) - Multiplatform Date and time library for Kotlin  
-![badge][badge-android]
-![badge][badge-ios]
-![badge][badge-js]
-![badge][badge-jvm]
-![badge][badge-linux]
-![badge][badge-mac]
-![badge][badge-tvos]
-![badge][badge-windows]
-![badge][badge-watchos]
-
 * [island-time](https://github.com/erikc5000/island-time) - A Kotlin Multiplatform library for working with dates and times  
 ![badge][badge-android]
 ![badge][badge-ios]
@@ -375,6 +608,15 @@
 ![badge][badge-mac]
 ![badge][badge-watchos]
 
+* [time](https://github.com/sebj/time) - Type-safe time periods for the Kotlinx-datetime multiplatform date/time library  
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-jvm]
+![badge][badge-linux]
+![badge][badge-mac]
+![badge][badge-tvos]
+![badge][badge-watchos]
+
 * [fluid-time](https://github.com/fluidsonic/fluid-time) - Kotlin multiplatform date & time library  
 ![badge][badge-ios]
 ![badge][badge-jvm]
@@ -384,6 +626,14 @@
 ![badge][badge-jvm]
 ![badge][badge-linux]
 ![badge][badge-mac]
+![badge][badge-windows]
+
+* [Kronos Multiplatform](https://github.com/softartdev/Kronos-Multiplatform) - Network Time Protocol (NTP) library  
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-jvm]
+![badge][badge-mac]
+![badge][badge-linux]
 ![badge][badge-windows]
 
 #### Semantic Versioning
@@ -416,6 +666,35 @@
 ![badge][badge-android]
 ![badge][badge-ios]
 
+* [Event4k](https://github.com/nort3x/Event4k) - MultiPlatform Kotlin EventBus library - simple, bidirectional, concurrent.  
+![badge][badge-android]
+![badge][badge-jvm]
+![badge][badge-js]
+![badge][badge-js-ir]
+![badge][badge-nodejs]
+![badge][badge-linux]
+![badge][badge-windows]
+![badge][badge-wasm]
+![badge][badge-apple-silicon]
+![badge][badge-ios]
+![badge][badge-mac]
+![badge][badge-watchos]
+![badge][badge-tvos]
+
+* [kotlin-channel-event-bus](https://github.com/hoc081098/kotlin-channel-event-bus) - A Kotlin Multiplatform library that provides a simple event bus implementation using KotlinX Coroutines Channels. Multi-keys, multi-producers, single-consumer and thread-safe event bus backed by `kotlinx.coroutines.channels.Channel`s.  
+![badge][badge-android]
+![badge][badge-jvm]
+![badge][badge-js]
+![badge][badge-js-ir]
+![badge][badge-nodejs]
+![badge][badge-linux]
+![badge][badge-windows]
+![badge][badge-ios]
+![badge][badge-mac]
+![badge][badge-watchos]
+![badge][badge-tvos]
+![badge][badge-apple-silicon]
+
 #### Number
 
 * [kotlin-multiplatform-bignum](https://github.com/ionspin/kotlin-multiplatform-bignum) - A Kotlin multiplatform library for arbitrary precision arithmetics  
@@ -432,18 +711,18 @@
 #### Hashing
 
 * [kotlinx-murmurhash](https://github.com/goncalossilva/kotlinx-murmurhash) - Multiplatform library for MurmurHash, a non-cryptographic hash function for general hash-based lookup focused on simplicity and performance.  
-![badge-jvm][badge-jvm]
-![badge-js][badge-js]
-![badge-nodejs][badge-nodejs]
-![badge-android][badge-android]
-![badge-ios][badge-ios]
-![badge-watchos][badge-watchos]
-![badge-tvos][badge-tvos]
-![badge-macos][badge-macos]
-![badge-windows][badge-windows]
-![badge-linux][badge-linux]
+![badge][badge-jvm]
+![badge][badge-js]
+![badge][badge-nodejs]
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-watchos]
+![badge][badge-tvos]
+![badge][badge-macos]
+![badge][badge-windows]
+![badge][badge-linux]
 
-#### Cipher
+#### Cryptography
 
 * [krypt](https://github.com/korlibs/krypto) - Cryptography library. Support for SecureRandom, Hash(MD5/SHA1/SHA256), AES.  
 ![badge][badge-android]
@@ -454,7 +733,7 @@
 ![badge][badge-mac]
 ![badge][badge-windows]
 
-* [kotlin-multiplatform-libsodium](https://github.com/ionspin/kotlin-multiplatform-libsodium) - A Kotlin Multiplatform wrapper for Libsodium cryptography library. 
+* [kotlin-multiplatform-libsodium](https://github.com/ionspin/kotlin-multiplatform-libsodium) - A Kotlin Multiplatform wrapper for Libsodium cryptography library.   
 ![badge][badge-android]
 ![badge][badge-ios]
 ![badge][badge-js]
@@ -464,6 +743,93 @@
 ![badge][badge-windows]
 ![badge][badge-watchos]
 ![badge][badge-tvos]
+
+* [cryptography-kotlin](https://github.com/whyoleg/cryptography-kotlin) - Type-safe Multiplatform cryptography library for Kotlin which doesn't implement any cryptography algorithm on its own, but wraps well-known future-proof solutions like [OpenSSL 3.x](https://www.openssl.org), [WebCrypto](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API) or [JCA](https://docs.oracle.com/en/java/javase/17/security/java-cryptography-architecture-jca-reference-guide.html).   
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-js]
+![badge][badge-jvm]
+![badge][badge-linux]
+![badge][badge-mac]
+![badge][badge-windows]
+
+* [KotlinCrypto/hash](https://github.com/KotlinCrypto/hash) - Hash functions (MD5/SHA1/SHA2/SHA3).   
+![badge][badge-android]
+![badge][badge-jvm]
+![badge][badge-js]
+![badge][badge-nodejs]
+![badge][badge-wasm]
+![badge][badge-linux]
+![badge][badge-windows]
+![badge][badge-ios]
+![badge][badge-mac]
+![badge][badge-watchos]
+![badge][badge-tvos]
+![badge][badge-android-native]
+![badge][badge-js-ir]
+![badge][badge-apple-silicon]
+
+* [KotlinCrypto/MACs](https://github.com/KotlinCrypto/MACs) - Message Authentication Code functions (Hmac MD5/SHA1/SHA2/SHA3, KMAC).   
+![badge][badge-android]
+![badge][badge-jvm]
+![badge][badge-js]
+![badge][badge-nodejs]
+![badge][badge-wasm]
+![badge][badge-linux]
+![badge][badge-windows]
+![badge][badge-ios]
+![badge][badge-mac]
+![badge][badge-watchos]
+![badge][badge-tvos]
+![badge][badge-android-native]
+![badge][badge-js-ir]
+![badge][badge-apple-silicon]
+
+* [KotlinCrypto/sponges](https://github.com/KotlinCrypto/sponges) - Sponge functions & state (Keccak-p).   
+![badge][badge-android]
+![badge][badge-jvm]
+![badge][badge-js]
+![badge][badge-nodejs]
+![badge][badge-wasm]
+![badge][badge-linux]
+![badge][badge-windows]
+![badge][badge-ios]
+![badge][badge-mac]
+![badge][badge-watchos]
+![badge][badge-tvos]
+![badge][badge-android-native]
+![badge][badge-js-ir]
+![badge][badge-apple-silicon]
+
+* [KotlinCrypto/secure-random](https://github.com/KotlinCrypto/secure-random) - Cryptographically secure random number generator, `SecureRandom`.   
+![badge][badge-android]
+![badge][badge-jvm]
+![badge][badge-js]
+![badge][badge-nodejs]
+![badge][badge-linux]
+![badge][badge-windows]
+![badge][badge-ios]
+![badge][badge-mac]
+![badge][badge-watchos]
+![badge][badge-tvos]
+![badge][badge-android-native]
+![badge][badge-js-ir]
+![badge][badge-apple-silicon]
+
+* [DatL4g/Sekret](https://github.com/Datl4g/Sekret) - 🔒 Deeply hide secrets with Kotlin Multiplatform (API Keys, Application credentials, etc).   
+![badge][badge-android]
+![badge][badge-jvm]
+![badge][badge-js]
+![badge][badge-nodejs]
+![badge][badge-linux]
+![badge][badge-windows]
+![badge][badge-ios]
+![badge][badge-mac]
+![badge][badge-watchos]
+![badge][badge-tvos]
+![badge][badge-android-native]
+![badge][badge-js-ir]
+![badge][badge-apple-silicon]
 
 #### String Utils
 
@@ -508,17 +874,11 @@
 ![badge][badge-watchos]
 ![badge][badge-tvos]
 
-* [encoding](https://github.com/05nelsonm/component-encoding) - Base 16/32/64 encoding.  
+* [KeepLink](https://github.com/motorro/KeepLink) -- Kotlin multiplatform deep-link definition, parsing and creation library.  
 ![badge][badge-android]
 ![badge][badge-ios]
 ![badge][badge-js]
-![badge][badge-nodejs]
 ![badge][badge-jvm]
-![badge][badge-linux]
-![badge][badge-windows]
-![badge][badge-mac]
-![badge][badge-watchos]
-![badge][badge-tvos]
 
 #### Input/Output
 
@@ -549,6 +909,14 @@
 ![badge][badge-android]
 ![badge][badge-ios]
 
+* [sentry-kotlin-multiplatform](https://github.com/getsentry/sentry-kotlin-multiplatform) - [Sentry](https://sentry.io/) SDK for Kotlin Multiplatform.  
+![badge][badge-android]
+![badge][badge-jvm]
+![badge][badge-ios]
+![badge][badge-mac]
+![badge][badge-tvos]
+![badge][badge-watchos]
+
 #### Atomic
 
 * [AtomicFu](https://github.com/Kotlin/kotlinx.atomicfu) - The idiomatic way to use atomic operations in Kotlin  
@@ -565,6 +933,15 @@
 #### UUID
 
 * [uuid](https://github.com/benasher44/uuid) - Kotlin Multiplatform UUID  
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-js]
+![badge][badge-jvm]
+![badge][badge-linux]
+![badge][badge-mac]
+![badge][badge-windows]
+
+* [kotlinx-uuid](https://github.com/hfhbd/kotlinx-uuid) - kotlinx-uuid is a multiplatform (MPP) Kotlin library introducing support for UUID.  
 ![badge][badge-android]
 ![badge][badge-ios]
 ![badge][badge-js]
@@ -602,6 +979,22 @@
 ![badge][badge-jvm]
 ![badge][badge-js]
 
+* [KotlinCrypto/endians](https://github.com/KotlinCrypto/endians) - Utils for converting `Short`, `Int`, `Long` to/from `BigEndian` and `LittleEndian` bytes.   
+![badge][badge-android]
+![badge][badge-jvm]
+![badge][badge-js]
+![badge][badge-nodejs]
+![badge][badge-wasm]
+![badge][badge-linux]
+![badge][badge-windows]
+![badge][badge-ios]
+![badge][badge-mac]
+![badge][badge-watchos]
+![badge][badge-tvos]
+![badge][badge-android-native]
+![badge][badge-js-ir]
+![badge][badge-apple-silicon]
+
 #### Monads
 
 * [Kotlin utilities](https://czerwinski.it/projects/kotlin-util/) - Scala utility types: `Option`, `Either`, `Try` for Kotlin Multiplatform.  
@@ -626,6 +1019,89 @@
 ![badge][badge-mac]
 ![badge][badge-js-ir]
 ![badge][badge-apple-silicon]
+
+* [ApiResult](https://github.com/respawn-app/ApiResult) - A monad for declarative & functional error-handling with a rich DSL.  
+![badge][badge-android]
+![badge][badge-jvm]
+![badge][badge-js]
+![badge][badge-nodejs]
+![badge][badge-linux]
+![badge][badge-windows]
+![badge][badge-ios]
+![badge][badge-mac]
+![badge][badge-watchos]
+![badge][badge-tvos]
+
+* [Résultat](https://github.com/nicolashaan/resultat) - A fork of Kotlin Result with a loading state.  
+![badge][badge-jvm]
+![badge][badge-js]
+![badge][badge-nodejs]
+![badge][badge-ios]
+![badge][badge-linux]
+![badge][badge-windows]
+![badge][badge-mac]
+![badge][badge-apple-silicon]
+
+* [value-clazz](https://github.com/05nelsonm/component-value-clazz) - Functionally equivalent to a Kotlin `value class` that implements an interface, but inheritance based and compiles to platform code.  
+![badge][badge-android]
+![badge][badge-jvm]
+![badge][badge-js]
+![badge][badge-nodejs]
+![badge][badge-linux]
+![badge][badge-windows]
+![badge][badge-ios]
+![badge][badge-mac]
+![badge][badge-watchos]
+![badge][badge-tvos]
+![badge][badge-wasm]
+![badge][badge-android-native]
+![badge][badge-js-ir]
+![badge][badge-apple-silicon]
+
+#### WebAssembly
+
+* [ktmpwasm](https://github.com/Yeicor/ktmpwasm) - A WebAssembly interpreter for Kotlin Multiplatform.  
+![badge][badge-android]
+![badge][badge-jvm]
+![badge][badge-js]
+![badge][badge-nodejs]
+![badge][badge-linux]
+![badge][badge-windows]
+![badge][badge-ios]
+![badge][badge-mac]
+![badge][badge-watchos]
+![badge][badge-tvos]
+![badge][badge-wasm]
+![badge][badge-android-native]
+![badge][badge-js-ir]
+![badge][badge-apple-silicon]
+
+#### Metadata
+
+* [XMP Core for Kotlin Multiplatform](https://github.com/Ashampoo/xmpcore) - Kotlin Multiplatform port of Adobe's XMP SDK.  
+![badge][badge-android]
+![badge][badge-jvm]
+![badge][badge-ios]
+![badge][badge-mac]
+
+#### Parsing
+
+* [Ksoup](https://github.com/fleeksoft/ksoup) - HTML & XML Parser (Jsoup Alternative)  
+![badge][badge-android]
+![badge][badge-jvm]
+![badge][badge-nodejs]
+![badge][badge-linux]
+![badge][badge-windows]
+![badge][badge-ios]
+![badge][badge-mac]
+![badge][badge-watchos]
+![badge][badge-tvos]
+
+* [RSS-Parser](https://github.com/prof18/RSS-Parser) - A Kotlin Multiplatform library to parse a RSS Feed  
+![badge][badge-android]
+![badge][badge-jvm]
+![badge][badge-ios]
+![badge][badge-mac]
 
 ### Debug
 
@@ -697,6 +1173,17 @@
 
 ### Test
 
+* [assertk](https://github.com/willowtreeapps/assertk) - Assertions for kotlin inspired by assertj.  
+![badge][badge-jvm]
+![badge][badge-android]
+![badge][badge-js]
+![badge][badge-mac]
+![badge][badge-ios]
+![badge][badge-tvos]
+![badge][badge-watchos]
+![badge][badge-linux]
+![badge][badge-windows]
+
 * [Atrium](https://github.com/robstoll/atrium) - A multiplatform assertion library for Kotlin.  
 ![badge][badge-android]
 ![badge][badge-js]
@@ -726,13 +1213,13 @@
 ![badge][badge-jvm]
 
 * [Mockative](https://github.com/mockative/mockative) - Mocking for Kotlin/Native and Kotlin Multiplatform using the Kotlin Symbol Processing API (KSP)  
-![badge-jvm][badge-jvm]
-![badge-js][badge-js]
-![badge-android][badge-android]
-![badge-ios][badge-ios]
-![badge-macos][badge-macos]
-![badge-windows][badge-windows]
-![badge-linux][badge-linux]
+![badge][badge-jvm]
+![badge][badge-js]
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-mac]
+![badge][badge-windows]
+![badge][badge-linux]
 
 * [MocKMP](https://github.com/Kodein-Framework/MocKMP) - A Kotlin/Multiplatform Kotlin Symbol Processor that generates Mocks & Fakes.  
 ![badge][badge-android]
@@ -740,17 +1227,51 @@
 ![badge][badge-js]
 ![badge][badge-jvm]
 
+* [Mokkery](https://github.com/lupuuss/Mokkery) - Mocking library for Kotlin Multiplatform based on compiler plugin.  
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-js]
+![badge][badge-jvm]
+![badge][badge-linux]
+![badge][badge-windows]
+![badge][badge-mac]
+![badge][badge-watchos]
+![badge][badge-tvos]
+
 * [kotlinx-resources](https://github.com/goncalossilva/kotlinx-resources) - Multiplatform library for reading resources in tests.  
-![badge-jvm][badge-jvm]
-![badge-js][badge-js]
-![badge-nodejs][badge-nodejs]
-![badge-android][badge-android]
-![badge-ios][badge-ios]
-![badge-watchos][badge-watchos]
-![badge-tvos][badge-tvos]
-![badge-macos][badge-macos]
-![badge-windows][badge-windows]
-![badge-linux][badge-linux]
+![badge][badge-jvm]
+![badge][badge-js]
+![badge][badge-nodejs]
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-watchos]
+![badge][badge-tvos]
+![badge][badge-mac]
+![badge][badge-windows]
+![badge][badge-linux]
+
+* [Truthish](https://github.com/varabyte/truthish) - Multiplatform library with a testing API inspired by Google Truth.  
+![badge][badge-jvm]
+![badge][badge-js]
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-mac]
+![badge][badge-windows]
+![badge][badge-linux]
+
+
+
+* [testmints](https://github.com/robertfmurdock/testmints) - Lightweight test semantic-sugar, to improve readability.  
+![badge][badge-jvm]
+![badge][badge-js]
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-mac]
+![badge][badge-windows]
+![badge][badge-linux]
+
+* [jsmints](https://github.com/robertfmurdock/jsmints) - A suite of libraries and gradle plugins for working with Kotlin JS, with a focus on testing and version updating.  
+![badge][badge-js]
 
 ### Annotation Processor
 
@@ -765,6 +1286,20 @@
 * [kotlin-native-suspend-function-callback](https://github.com/feilfeilundfeil/kotlin-native-suspend-function-callback) - Kotlin Multiplatform compiler plugin to generate a callback implementation for suspended functions so they are visible from Kotlin Native  
 ![badge][badge-ios]
 ![badge][badge-js]
+![badge][badge-jvm]
+
+* [trckr](https://github.com/dzmpr/trckr) - KSP processer that simplifies the collection of analytics  
+![badge][badge-jvm]
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-watchos]
+![badge][badge-tvos]
+![badge][badge-mac]
+![badge][badge-windows]
+![badge][badge-linux]
+
+* [KMP-ComposeUIViewController](https://github.com/GuilhE/KMP-ComposeUIViewController) - KSP library for generating ComposeUIViewController and UIViewControllerRepresentable files when using Compose Multiplatform for iOS  
+![badge][badge-ios]
 ![badge][badge-jvm]
 
 ### GUI
@@ -795,11 +1330,48 @@
 ![badge][badge-android]
 ![badge][badge-jvm]
 
-* [componentbox](https://github.com/dropbox/componentbox) - A Kotlin multiplatform library for building dynamic server-driven UI
+* [componentbox](https://github.com/dropbox/componentbox) - A Kotlin multiplatform library for building dynamic server-driven UI  
 ![badge][badge-android]
 ![badge][badge-ios]
 ![badge][badge-jvm]
 ![badge][badge-js]
+
+* [kontrol](https://github.com/chopyourbrain/kontrol) - A Kotlin Multiplatform library for creating a debugging menu  
+![badge][badge-android]
+![badge][badge-ios]
+
+* [koala-plot](https://github.com/KoalaPlot) - A Compose Multiplatform based charting and plotting library written in Kotlin  
+![badge][badge-android]
+![badge][badge-jvm]
+![badge][badge-js]
+
+* [Material Theme Preferences](https://github.com/softartdev/MaterialThemePrefs) - Switching Dark/Light Material themes on Compose  
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-jvm]
+![badge][badge-mac]
+![badge][badge-linux]
+![badge][badge-windows]
+
+* [DrawBox](https://github.com/MarkYav/DrawBox) - The first multiplatform library to draw anything on canvas.  
+![badge][badge-android]
+![badge][badge-jvm]
+![badge][badge-linux]
+![badge][badge-windows]
+
+* [typist-cmp](https://github.com/zeeshanali-k/typist-cmp) - A Highly Customisable Typing Animation Library for Compose Multiplatform (Android & iOS)  
+![badge][badge-android]
+![badge][badge-ios]
+
+* [KodeView](https://github.com/SnipMeDev/KodeView) - Kotlin Multiplatform syntax highlighting views.  
+ ![badge][badge-android]
+ ![badge][badge-ios]
+ ![badge][badge-js]
+ ![badge][badge-jvm]
+ ![badge][badge-linux]
+ ![badge][badge-windows]
+ ![badge][badge-mac]
+ ![badge][badge-js-ir]
 
 ### Command Line Interface
 
@@ -816,7 +1388,21 @@
 ![badge][badge-linux]
 ![badge][badge-windows]
 
+* [Kotter](https://github.com/varabyte/kotter) - Multiplatform library for Kotlin command-line applications with support for text styling, animations, timers, and input.  
+![badge][badge-jvm]
+![badge][badge-linux]
+![badge][badge-windows]
+![badge][badge-mac]
+
+* [Mordant](https://github.com/ajalt/mordant) - Multiplatform text styling for Kotlin command-line applications  
+![badge][badge-js]
+![badge][badge-jvm]
+![badge][badge-linux]
+![badge][badge-windows]
+![badge][badge-mac]
+
 ### Firebase
+
 * [Firebase Kotlin SDK](https://github.com/gitliveapp/firebase-kotlin-sdk/) - Firebase SDK for Kotlin Multiplatform projects (Firebase Authentication, Realtime Database, Cloud Firestore, Cloud Functions, Cloud Messaging and Cloud Storage).  
 ![badge][badge-android]
 ![badge][badge-ios]
@@ -826,13 +1412,22 @@
 
 * [kompass](https://github.com/sellmair/kompass) - Kotlin Multiplatform Router for Android and iOS  
 
-* [Decompose](https://github.com/arkivanov/Decompose) - Kotlin Multiplatform lifecycle-aware business logic components (aka BLoCs) with routing functionality and pluggable UI (Jetpack Compose, SwiftUI, JS React, etc.), inspired by Badoos RIBs fork of the Uber RIBs framework.
+* [Decompose](https://github.com/arkivanov/Decompose) - Kotlin Multiplatform lifecycle-aware business logic components (aka BLoCs) with routing functionality and pluggable UI (Jetpack Compose, SwiftUI, JS React, etc.), inspired by Badoos RIBs fork of the Uber RIBs framework.  
 ![badge][badge-android]
 ![badge][badge-ios]
 ![badge][badge-js]
 ![badge][badge-jvm]
 ![badge][badge-mac]
 ![badge][badge-tvos]
+![badge][badge-watchos]
+
+* [Decompose-Router](https://github.com/xxfast/Decompose-Router) - Compose Multiplatform navigation library that leverage Decompose to create an API inspired by Conductor  
+![badge][badge-android]
+![badge][badge-wearos]
+![badge][badge-ios]
+![badge][badge-js]
+![badge][badge-jvm]
+![badge][badge-mac]
 ![badge][badge-watchos]
 
 * [oolong](https://github.com/oolong-kt/oolong) - MVU for Kotlin Multiplatform  
@@ -864,18 +1459,28 @@
 ![badge][badge-mac]
 ![badge][badge-wasm]
 
+* [FlowMVI](https://github.com/respawn-app/FlowMVI) - Plugin-based Kotlin Multiplatform MVI framework.  
+![badge][badge-android]
+![badge][badge-jvm]
+![badge][badge-js]
+![badge][badge-nodejs]
+![badge][badge-linux]
+![badge][badge-windows]
+![badge][badge-ios]
+![badge][badge-mac]
+![badge][badge-watchos]
+![badge][badge-tvos]
+
 * [ReKamp](https://github.com/xorum-io/ReKamp) - Port of [ReKotlin](https://github.com/ReKotlin/ReKotlin) to Kotlin Multiplatform, which corresponds to [ReKotlin/1.0.4](https://github.com/ReKotlin/ReKotlin/releases/tag/1.0.4).   
 ![badge][badge-android]
 ![badge][badge-ios]
 ![badge][badge-jvm]
-
 
 * [Kaskade](https://github.com/gumil/kaskade) - Simplifying UI state management in Kotlin Multiplatform.  
 ![badge][badge-android]
 ![badge][badge-ios]
 ![badge][badge-js]
 ![badge][badge-jvm]
-
 
 * [Flywheel](https://github.com/abhimuktheeswarar/Flywheel) - A simple and predictable state management library inspired by Redux and a few more. Fully built on top of coroutines using the concept of [actors](https://www.brianstorti.com/the-actor-model/).   
 ![badge][badge-jvm]
@@ -887,6 +1492,17 @@
 ![badge][badge-linux]
 ![badge][badge-js]
 ![badge][badge-windows]
+
+* [KStateMachine](https://github.com/nsk90/kstatemachine) - KStateMachine is a Kotlin DSL library for creating state machines and hierarchical state machines (statecharts).  
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-jvm]
+
+* [CommonStateMachine](https://github.com/motorro/CommonStateMachine) - CommonStateMachine is a small non-opinionated library to implement MVI with the state-machine pattern.  
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-jvm]
+![badge][badge-js]
 
 * [Premo](https://github.com/dmdevgo/Premo) — Presentation Model (aka View Model) and Navigation. Focus on writing logic instead of solving common and boring UI related issues: lifecycle, persistence, navigation, etc.   
 ![badge][badge-android]
@@ -901,9 +1517,48 @@
 ![badge][badge-watchos]
 ![badge][badge-tvos]
 
+* [Direkt](https://github.com/myunidays/direkt) - Kotlin Multiplatform Router for Android, iOS, Js   
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-js]
+
+* [compose_bloc](https://github.com/beyondeye/compose_bloc) - State Management and Navigation Library for Jetpack Compose and Compose Multiplatform.   
+![badge][badge-android]
+![badge][badge-js]
+![badge][badge-jvm]
+![badge][badge-linux]
+![badge][badge-windows]
+
+* [Ballast](https://github.com/copper-leaf/ballast) - Opinionated Application State Management framework for Kotlin Multiplatform  
+
+* [Kotlin Bloc](https://github.com/1gravity/Kotlin-Bloc) - A simple, predictable and composable UI framework for Kotlin Multiplatform  
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-jvm]
+
+* [kmp-viewmodel](https://github.com/hoc081098/kmp-viewmodel) - Shared ViewModel in Kotlin Multiplatform - A Kotlin Multiplatform library that provides shared MVVM for UI applications. Components are lifecycle-aware on Android.  
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-jvm]
+![badge][badge-js]
+![badge][badge-mac]
+![badge][badge-tvos]
+![badge][badge-watchos]
+
+* [Blackbox](https://github.com/trueangle/Blackbox) - A lightweight framework that includes a set of architecture tools and approaches for building scalable, fully multiplatform applications (100% shared logic). Streamlines project modularization through the separation into independent parts and provides features like lifecycle-aware components, declarative navigation, and constructor-based DI.  
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-jvm]
+![badge][badge-js]
+![badge][badge-mac]
+
 #### Project templates 
 
 * [moko-template](https://github.com/icerockdev/moko-template) - Template project of a Mobile (Android & iOS) Kotlin MultiPlatform project with the MOKO libraries and modularized architecture   
+![badge][badge-android]
+![badge][badge-ios]
+
+* [KMMT](https://github.com/jittya/KMMT) - KMMT is a Multi-Module KMM based project template designed to simplify the KMM development. It uses a simplified approach that can be shared both in android and iOS easily. This template include network module, persistence module, resource module, analytics module ( with ios native library integration), domain module, presenter module etc.  
 ![badge][badge-android]
 ![badge][badge-ios]
 
@@ -943,14 +1598,14 @@
 
 * [KaMPKit](https://github.com/touchlab/KaMPKit) - KaMP Kit by Touchlab is a collection of code and tools designed to get your mobile team started quickly with Kotlin Multiplatform  
 
-* [KMMT](https://github.com/jittya/KMMT) - KMMT is a KMM based project template designed to simplify the KMM development. It uses a simplified MVVM approach that can be shared both in Android and iOS easily. 
-
 * [Zakadabar](https://github.com/spxbhuhb/zakadabar-stack) - A Kotlin Multiplatform library for full-stack software development  
 ![badge][badge-js]
 ![badge][badge-jvm]
 ![badge][badge-android]
 
 * [multiplatform-swiftpackage](https://github.com/ge-org/multiplatform-swiftpackage) - This is a Gradle plugin for Kotlin Multiplatform projects that generates an XCFramework for your native Apple targets and creates a matching Package.swift file to distribute it as a binary target.  
+
+* [Swift Klib](https://github.com/ttypic/swift-klib-plugin) - This is a Gradle Plugin to build Swift code as part of your Kotlin Multiplatform project. With this plugin, you can access Swift-only iOS libraries, such as CryptoKit and experiment with Swift to Kotlin interoperability.  
 
 ### Artificial Intelligence
 
@@ -960,6 +1615,12 @@
 ![badge][badge-js]
 ![badge][badge-jvm]
 ![badge][badge-nodejs]
+
+* [Y-Chat](https://github.com/yml-org/ychat) - Y—Chat is a Kotlin Multiplatform (KMP) project that provides a simple API for integrating the powerful ChatGPT language model developed by OpenAI into mobile applications running on multi platforms.  
+![badge][badge-jvm]
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-mac]
 
 ### Social
 
@@ -971,6 +1632,28 @@ fully covered API and a lot of additional DSLs on top of base API.
 ![badge][badge-jvm]
 ![badge][badge-js]![badge][badge-js-ir]
 
+### Math
+
+* [Multiplatform expressions evaluator](https://github.com/murzagalin/multiplatform-expressions-evaluator) - Runtime infix expressions evaluator.  
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-js]
+![badge][badge-jvm]
+![badge][badge-linux]
+![badge][badge-mac]
+![badge][badge-tvos]
+![badge][badge-watchos]
+![badge][badge-windows]
+
+* [Multik](https://github.com/Kotlin/multik) - Multiplatform library for Kotlin, specializing in multidimensional array operations with features like static typing and dimensional consistency, offering high-speed mathematical and arithmetic operations, as well as linear algebra functionalities.  
+![badge][badge-android]
+![badge][badge-ios]
+![badge][badge-js]
+![badge][badge-jvm]
+![badge][badge-linux]
+![badge][badge-windows]
+![badge][badge-mac]
+![badge][badge-wasm]
 
 ## Contribute
 
@@ -978,6 +1661,8 @@ Welcome contribute!
 Please read the [contribution guidelines](Contributing.md) first.
 
 [badge-android]: http://img.shields.io/badge/-android-6EDB8D.svg?style=flat
+[badge-android-native]: http://img.shields.io/badge/support-[AndroidNative]-6EDB8D.svg?style=flat
+[badge-wearos]: http://img.shields.io/badge/-wearos-8ECDA0.svg?style=flat
 [badge-jvm]: http://img.shields.io/badge/-jvm-DB413D.svg?style=flat
 [badge-js]: http://img.shields.io/badge/-js-F8DB5D.svg?style=flat
 [badge-js-ir]: https://img.shields.io/badge/support-[IR]-AAC4E0.svg?style=flat
